@@ -76,7 +76,7 @@ int Bankautomat::einzahlung(KartenKonto* kkonto, int einzahlungsBetrag) {
 }
 
 KartenKonto* Bankautomat::kartenauswahl(Bankkunde* current_kunde ) {
-  std::cout << "Moechten Sie eine Keditkarte oder Girokarte nutzen? Tragen Sie bitte Kreditkarte oder Girokarte ein!" << std::endl;
+  std::cout << "Moechten Sie eine Kreditkarte oder Girokarte nutzen? Tragen Sie bitte Kreditkarte oder Girokarte ein!" << std::endl;
 
 
   while (true) {
